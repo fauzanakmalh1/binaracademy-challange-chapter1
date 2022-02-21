@@ -1,0 +1,70 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.btn-rent {
+  color: #FFF;
+  background-color: #5CB85F;
+}
+
+.btn-rent:hover {
+  color: #FFF;
+  background-color: #3D7B3F;
+}
+
+.bg-service {
+  background-color: #F1F3FF;
+}
+
+.bg-service-banner {
+  padding-top: 7%;
+}
+
+.img-car {
+  float: right;
+  margin-right: -12px;
+}
+
+.list-none {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-none-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.img-list {
+  margin-right: 5%;
+}
+
+.img-why {
+  width: 15%;
+  margin: 10% 8% 0;
+}
+
+.card-text {
+  font-size: small;
+}
+
+.img-rate {
+  width: 100px !important;
+}
+
+.card-owl {
+  border-radius: 8px;
+}
+
+.bg-rent {
+  color: #FFF;
+  background-color: #0D28A6;
+  border-radius: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-service-banner {
+    padding-top: 20%;
+  }
+}
