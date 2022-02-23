@@ -63,6 +63,11 @@ body {
   border-radius: 13px;
 }
 
+.padding-vertical {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 @media screen and (max-width: 768px) {
   .bg-service-banner {
     padding-top: 20%;

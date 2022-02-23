@@ -1,20 +1,25 @@
 $(".owl-carousel").owlCarousel({
   center: true,
   loop: true,
-  margin: 20,
+  margin: 50,
   nav: true,
+  navText: [
+    "<img src='../img/left_button.png'>",
+    "<img src='../img/right_button.png'>",
+  ],
   animateOut: "slideOutDown",
   animateIn: "flipInX",
-  smartSpeed: 450,
+  smartSpeed: 1450,
   autoplay: true,
-  autoplayTimeout: 1000,
+  autoplayTimeout: 2000,
   autoplayHoverPause: true,
+  dots: false,
   responsive: {
     0: {
       items: 1,
     },
     600: {
-      items: 3,
+      items: 2,
     },
   },
 });
